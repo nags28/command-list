@@ -1,5 +1,8 @@
 ########### ecs container connect #########################
 ###https://www.scalefactory.com/blog/2021/04/20/console-access-to-ecs-containers/######################
+
+#################CONSOLE ACCESS TO ECS CONTAINERS#######################################
+
 #############https://aws.amazon.com/blogs/containers/new-using-amazon-ecs-exec-access-your-containers-fargate-ec2/##############
 
 aws ecs update-service --service ${service-name} --cluster ${cluster-name} --enable-execute-command
